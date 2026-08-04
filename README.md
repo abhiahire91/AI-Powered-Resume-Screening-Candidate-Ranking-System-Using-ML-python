@@ -1,118 +1,295 @@
-<h1 align="center" style="color:#22c55e; font-size:34px;">
-🤖 AI Resume Screening & Candidate Ranking System
-</h1>
+<h1 align="center">🤖 AI Resume Screening & Candidate Ranking System</h1>
 
 <p align="center">
-<b>🚀 NLP-Based Intelligent Hiring Assistant</b><br>
-<span style="color:gray;">Automating Resume Screening using Machine Learning</span>
+  <b>🚀 NLP-Based Intelligent Hiring Assistant</b><br>
+  <i>Automating Resume Screening using Machine Learning & NLP</i>
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-ML-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NLP-TFIDF-green?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Cosine Similarity-Model-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python"/>
+<img src="https://img.shields.io/badge/NLP-TF--IDF-success?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Cosine%20Similarity-Model-purple?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Machine%20Learning-Resume%20Ranking-orange?style=for-the-badge"/>
 </p>
 
-<hr>
+---
 
-<h2 style="color:#16a34a;">📌 Project Overview</h2>
+<h2>📌 Project Overview</h2>
 
-<div style="background:linear-gradient(135deg,#022c22,#065f46); padding:12px; border-radius:10px; color:white;">
-This project is an <b>AI-powered Resume Screening System</b> that automatically evaluates and ranks resumes based on their similarity with a given job description using <b>NLP techniques</b>. It helps recruiters shortlist candidates faster by assigning a match score to each resume.
-</div>
+<blockquote>
 
-<hr>
+<b>AI Resume Screening & Candidate Ranking System</b>
 
-<h2 style="color:#16a34a;">⚙️ Tech Stack</h2>
+Automatically evaluates resumes using
+<b>Natural Language Processing (NLP)</b> and
+<b>Machine Learning</b>.
+
+✔ TF-IDF Vectorization
+
+✔ Cosine Similarity
+
+✔ Resume Ranking
+
+✔ Intelligent Candidate Shortlisting
+
+</blockquote>
+
+---
+
+<h2>⚙️ Tech Stack</h2>
+
+<table>
+
+<tr>
+
+<th>Category</th>
+
+<th>Technology</th>
+
+</tr>
+
+<tr>
+
+<td>Language</td>
+
+<td>Python</td>
+
+</tr>
+
+<tr>
+
+<td>Libraries</td>
+
+<td>Pandas • NumPy • Scikit-learn • NLTK</td>
+
+</tr>
+
+<tr>
+
+<td>NLP</td>
+
+<td>Text Cleaning • Stopword Removal</td>
+
+</tr>
+
+<tr>
+
+<td>Feature Engineering</td>
+
+<td>TF-IDF</td>
+
+</tr>
+
+<tr>
+
+<td>Model</td>
+
+<td>Cosine Similarity</td>
+
+</tr>
+
+<tr>
+
+<td>Visualization</td>
+
+<td>Matplotlib • Seaborn • WordCloud</td>
+
+</tr>
+
+</table>
+
+---
+
+<h2>🧠 Workflow</h2>
+
+```text
+Resume Dataset
+      │
+      ▼
+Text Cleaning
+      │
+      ▼
+Stopword Removal
+      │
+      ▼
+TF-IDF Vectorization
+      │
+      ▼
+Cosine Similarity
+      │
+      ▼
+Resume Ranking
+      │
+      ▼
+Top Candidates
+```
+
+---
+
+<h2>🚀 Key Features</h2>
 
 <ul>
-<li><b>Language:</b> Python</li>
-<li><b>Libraries:</b> Pandas, NumPy, Scikit-learn, NLTK</li>
-<li><b>NLP:</b> Text Cleaning, Stopword Removal</li>
-<li><b>Feature Engineering:</b> TF-IDF</li>
-<li><b>Model:</b> Cosine Similarity</li>
-<li><b>Visualization:</b> Matplotlib, Seaborn, WordCloud</li>
+
+<li>✅ Automated Resume Screening</li>
+
+<li>✅ TF-IDF Feature Extraction</li>
+
+<li>✅ Cosine Similarity Matching</li>
+
+<li>✅ Resume Ranking</li>
+
+<li>✅ Top Candidate Selection</li>
+
+<li>✅ Resume Matching Function</li>
+
+<li>✅ NLP Based Recommendation</li>
+
 </ul>
 
-<hr>
+---
 
-<h2 style="color:#16a34a;">🧠 Workflow</h2>
+<h2>📊 Visualizations</h2>
 
-<ol>
-<li>Load resume dataset</li>
-<li>Clean text (lowercase, remove symbols, stopwords)</li>
-<li>Convert text into TF-IDF vectors</li>
-<li>Compute similarity using cosine similarity</li>
-<li>Rank candidates based on score</li>
-</ol>
+<table>
 
-<hr>
+<tr>
 
-<h2 style="color:#16a34a;">🚀 Key Features</h2>
+<td>📈 Top 10 Candidates</td>
 
-<ul>
-<li>✔️ Automated Resume Screening</li>
-<li>✔️ TF-IDF based Feature Extraction</li>
-<li>✔️ Cosine Similarity Scoring</li>
-<li>✔️ Candidate Ranking System</li>
-<li>✔️ Top 10 Candidate Selection</li>
-<li>✔️ Resume Matching Function</li>
-</ul>
+<td>📊 Score Distribution</td>
 
-<hr>
+</tr>
 
-<h2 style="color:#16a34a;">📊 Visualizations</h2>
+<tr>
 
-<div style="background:#0f172a; padding:12px; border-radius:10px; color:white;">
-📈 Top 10 Candidates<br>
-📊 Score Distribution<br>
-📉 Top vs Bottom Comparison<br>
-🥧 Match Distribution<br>
-☁️ WordCloud<br>
-🔥 Heatmap<br>
-📊 Role-wise Analysis
-</div>
+<td>☁️ WordCloud</td>
 
-<hr>
+<td>🔥 Heatmap</td>
 
-<h2 style="color:#16a34a;">📈 Output</h2>
+</tr>
 
-<div style="background:#022c22; padding:12px; border-radius:10px; color:white;">
-✔️ Ranked candidates with scores<br>
-✔️ Top matches (~34%)<br>
-✔️ Test resume score (~60%)
-</div>
+<tr>
 
-<hr>
+<td>📉 Match Comparison</td>
 
-<h2 style="color:#16a34a;">🎯 Business Impact</h2>
+<td>📋 Role-wise Analysis</td>
 
-<ul>
-<li>📌 Reduces manual effort</li>
-<li>📌 Speeds up hiring process</li>
-<li>📌 Improves accuracy</li>
-<li>📌 Scalable for large datasets</li>
-</ul>
+</tr>
 
-<hr>
+</table>
 
-<h2 style="color:#16a34a;">📬 Contact</h2>
+---
 
-<div style="border:1px solid #16a34a; border-radius:12px; padding:15px; background:linear-gradient(135deg,#022c22,#16a34a); color:white; width:fit-content;">
-👨‍💻 <b>Abhishek Ahire</b><br><br>
+<h2>📈 Sample Output</h2>
 
-🔗 <b>LinkedIn:</b><br>
-<a href="https://www.linkedin.com/in/abhishek-ahire-49bb6a318" style="color:#a7f3d0; text-decoration:none; font-weight:bold;">
-Connect with me
-</a><br><br>
+<table>
 
-💻 <b>GitHub:</b><br>
-<a href="https://github.com/abhiahire91" style="color:#a7f3d0; text-decoration:none; font-weight:bold;">
-Visit Profile
+<tr>
+
+<th>Candidate</th>
+
+<th>Match Score</th>
+
+</tr>
+
+<tr>
+
+<td>Resume 01</td>
+
+<td>61%</td>
+
+</tr>
+
+<tr>
+
+<td>Resume 02</td>
+
+<td>57%</td>
+
+</tr>
+
+<tr>
+
+<td>Resume 03</td>
+
+<td>52%</td>
+
+</tr>
+
+<tr>
+
+<td>Resume 04</td>
+
+<td>48%</td>
+
+</tr>
+
+<tr>
+
+<td>Resume 05</td>
+
+<td>44%</td>
+
+</tr>
+
+</table>
+
+---
+
+<h2>🎯 Business Impact</h2>
+
+✔ Reduces Manual Screening
+
+<br>
+
+✔ Faster Hiring
+
+<br>
+
+✔ Better Candidate Ranking
+
+<br>
+
+✔ Improves Recruitment Accuracy
+
+<br>
+
+✔ Scalable for Large Datasets
+
+---
+
+<h2>📂 Project Structure</h2>
+
+```text
+AI Resume Screening
+│
+├── Dataset
+├── Notebook
+├── Images
+├── README.md
+└── requirements.txt
+```
+
+---
+
+<h2>📬 Contact</h2>
+
+<b>👨‍💻 Abhishek Ahire</b>
+
+<br><br>
+
+<a href="https://www.linkedin.com/in/abhishek-ahire-49bb6a318">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
 </a>
-</div>
 
-<hr>
+<br><br>
 
-<h3 align="center">⭐ If you like this project, give it a star!</h3>
-<h3 align="center">🚀 Created by Abhishek Ahire</h3>
+<a href="https://github.com/abhiahire91">
+<img src="https://img.shields.io/badge/GitHub-Visit-black?style=for-the-badge&logo=github"/>
+</a>
+
+---
+
+<h2 align="center">⭐ If you like this project, give it a Star ⭐</h2>
+
+<h3 align="center">🚀 Created with ❤️ by Abhishek Ahire</h3>
